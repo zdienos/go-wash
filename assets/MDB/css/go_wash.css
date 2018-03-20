@@ -1,0 +1,65 @@
+/* YOUR CUSTOM STYLES */
+
+.navbar.home,
+.navbar.customer,
+.navbar.admin{
+	background: #3399ff;
+}
+
+.navbar .navbar-nav li a{
+	color: #000;
+}
+
+.navbar .navbar-nav{
+	padding-right: 10px
+}
+
+.navbar ul li a:hover{
+	background: #3399ff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px #000000;
+}
+
+.navbar ul li.active{
+	background: #3399ff;
+	border-radius: 5px;
+	color: #fff;
+	box-shadow: 2px 2px 4px #000;
+	text-shadow: 0px 0px 10px #fff;
+	font-weight: bold;
+}
+
+.sign-in,
+.sign-up{
+	padding: 10px 50px 15px 50px;	
+}
+
+.about{
+	padding: 20px 20px 20px 20px;
+}
+
+.dash-customer{
+	padding-top: 20px;
+	animation: fadeAndScale .3s cubic-bezier(.07,1.13,.67,1.34);
+	animation-delay: 0.5s;
+	transform-origin: center bottom;
+}
+
+@keyframes fadeAndScale{
+	from{
+		opacity: 0;
+		transform: scale3d(.50, .50, 1);
+	}
+
+	to{
+		opacity: 1;
+		transform: scale3d(1, 1, 1);
+	}
+}
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+      margin: auto;
+      max-width: 100%;
+      max-height: 50%;
+  }
